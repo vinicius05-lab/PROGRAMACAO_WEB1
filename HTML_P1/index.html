@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Formulário:</h1>
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label>Nome: </label>
+                    <input type="text" name="nome"><br><br>
+                    <label>Data de Nascimento:</label>
+                    <input type="date" name="data"><br><br>
+                    <label>Endereço:</label>
+                    <input type="text" name="endereco"><br><br>
+                    <label>Bairro:</label>
+                    <input type="text" name="bairro">
+                    <label>Cidade:</label>
+                    <input type="text" name="cidade"><br><br>
+                    <label>CEP:</label>
+                    <input type="text" name="data">
+                    <label>Estado:</label>
+                    <select name="estados">
+                        <option value="ceara">Ceará</option>
+                        <option value="ceara">Acre</option>
+                        <option value="ceara">Alagoas</option>
+                        <option value="ceara">Amapá</option>
+                        <option value="ceara">Amazonas</option>
+                        <option value="ceara">Bahia</option>
+                        <option value="ceara">Espírito Santo</option>
+                        <option value="Goiás">Goiás</option>
+                        <option value="Maranhão">Maranhão</option>
+                        <option value="Mato Grosso">Mato Grosso</option>
+                        <option value="Minas Gerais">Minas Gerais</option>
+                        <option value="Pará">Pará</option>                        
+                        <option value="Paraíba">Paraíba</option>
+                        <option value="Paraná">Paraná</option>
+                        <option value="ceara">Pernambuco</option>
+                    </select>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Dados Profissionais</legend>
+                    <label>Natureza do Cargo: </label> <br>
+                    <input type="radio" name="nat_cargo" value="gerencia">
+                    <label for="gerencia">Gerência</label>
+                    <input type="radio" name="nat_cargo" value="financeiro">
+                    <label for="financeiro">Financeiro</label>
+                    <input type="radio" name="nat_cargo" value="recepcao">
+                    <label for="recepcao">Recepção</label>
+                    <input type="radio" name="nat_cargo" value="administrativo">
+                    <label for="administrativo">Administrativo</label>
+                    <input type="radio" name="nat_cargo" value="juridico">
+                    <label for="juridico">Juridico</label><br><br>
+                    <label>Áreas de Interesse: </label><br>
+                    <input type="checkbox" name="area_interesse" value="computacao">
+                    <label for="computacao">Computação</label>
+                    <input type="checkbox" name="area_interesse" value="quimica">
+                    <label for="quimica">Química</label>
+                    <input type="checkbox" name="area_interesse" value="meio_ambiente">
+                    <label for="meio_ambiente">Meio Ambiente</label>
+                    <input type="checkbox" name="area_interesse" value="engenharia">
+                    <label for="engenharia">Engenharia</label>
+                    <input type="checkbox" name="area_interesse" value="matematica">
+                    <label for="matematica">Matemática</label><br><br>
+                    <label>Mini-Currículo:</label><br><br>
+                    <textarea name="curriculo" id="" cols="60" rows="10" placeholder="Currículo..."></textarea>
+                </fieldset><br><br>
+                <button>Enviar</button>
+                <button>Limpar</button>
+            </form>
+    </body>
+</html>
